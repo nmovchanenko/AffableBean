@@ -12,11 +12,9 @@ import entity.Product;
 import java.util.*;
 
 /**
- *
  * @author tgiunipero
  */
 public class ShoppingCart {
-
     List<ShoppingCartItem> items;
     int numberOfItems;
     double total;
@@ -105,7 +103,6 @@ public class ShoppingCart {
      * @see ShoppingCartItem
      */
     public synchronized List<ShoppingCartItem> getItems() {
-
         return items;
     }
 
@@ -117,7 +114,6 @@ public class ShoppingCart {
      * @see ShoppingCartItem
      */
     public synchronized int getNumberOfItems() {
-
         numberOfItems = 0;
 
         for (ShoppingCartItem scItem : items) {
@@ -136,7 +132,6 @@ public class ShoppingCart {
      * @see ShoppingCartItem
      */
     public synchronized double getSubtotal() {
-
         double amount = 0;
 
         for (ShoppingCartItem scItem : items) {
@@ -157,7 +152,6 @@ public class ShoppingCart {
      * @see ShoppingCartItem
      */
     public synchronized void calculateTotal(String surcharge) {
-
         double amount = 0;
 
         // cast surcharge as double
@@ -176,7 +170,6 @@ public class ShoppingCart {
      * @return the cost of all items times their quantities plus surcharge
      */
     public synchronized double getTotal() {
-
         return total;
     }
 
