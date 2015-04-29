@@ -1,11 +1,3 @@
-/*
- * Copyright (c) 2010, Oracle and/or its affiliates. All rights reserved.
- *
- * You may not modify, use, reproduce, or distribute this software
- * except in compliance with the terms of the license at:
- * http://developer.sun.com/berkeley_license.html
- */
-
 package entity;
 
 import java.io.Serializable;
@@ -13,10 +5,7 @@ import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
-/**
- *
- * @author tgiunipero
- */
+
 @Embeddable
 public class OrderedProductPK implements Serializable {
     @Basic(optional = false)

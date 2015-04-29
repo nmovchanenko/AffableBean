@@ -1,11 +1,3 @@
-/*
- * Copyright (c) 2010, Oracle and/or its affiliates. All rights reserved.
- *
- * You may not modify, use, reproduce, or distribute this software
- * except in compliance with the terms of the license at:
- * http://developer.sun.com/berkeley_license.html
- */
-
 package controller;
 
 import entity.Customer;
@@ -26,10 +18,6 @@ import session.CustomerFacade;
 import session.CustomerOrderFacade;
 import session.OrderManager;
 
-/**
- *
- * @author tgiunipero
- */
 @WebServlet(name = "AdminServlet",
             urlPatterns = {"/admin/",
                            "/admin/viewOrders",

@@ -1,20 +1,8 @@
-/*
- * Copyright (c) 2010, Oracle and/or its affiliates. All rights reserved.
- *
- * You may not modify, use, reproduce, or distribute this software
- * except in compliance with the terms of the license at:
- * http://developer.sun.com/berkeley_license.html
- */
-
 package session;
 
 import java.util.List;
 import javax.persistence.EntityManager;
 
-/**
- *
- * @author tgiunipero
- */
 public abstract class AbstractFacade<T> {
     private Class<T> entityClass;
 

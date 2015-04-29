@@ -1,19 +1,7 @@
-/*
- * Copyright (c) 2010, Oracle and/or its affiliates. All rights reserved.
- *
- * You may not modify, use, reproduce, or distribute this software
- * except in compliance with the terms of the license at:
- * http://developer.sun.com/berkeley_license.html
- */
-
 package validate;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- *
- * @author tgiunipero
- */
 public class Validator {
 
     // ensures that quantity input is number between 0 and 99

@@ -1,11 +1,3 @@
-/*
- * Copyright (c) 2010, Oracle and/or its affiliates. All rights reserved.
- *
- * You may not modify, use, reproduce, or distribute this software
- * except in compliance with the terms of the license at:
- * http://developer.sun.com/berkeley_license.html
- */
-
 package filter;
 
 import java.io.IOException;
@@ -20,10 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 
-/**
- *
- * @author tgiunipero
- */
 @WebFilter(servletNames = {"Controller"})
 public class SessionTimeoutFilter implements Filter {
 

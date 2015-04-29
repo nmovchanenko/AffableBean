@@ -1,11 +1,3 @@
-/*
- * Copyright (c) 2010, Oracle and/or its affiliates. All rights reserved.
- *
- * You may not modify, use, reproduce, or distribute this software
- * except in compliance with the terms of the license at:
- * http://developer.sun.com/berkeley_license.html
- */
-
 package entity;
 
 import java.io.Serializable;
@@ -22,10 +14,6 @@ import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-/**
- *
- * @author tgiunipero
- */
 @Entity
 @Table(name = "category")
 @NamedQueries({
